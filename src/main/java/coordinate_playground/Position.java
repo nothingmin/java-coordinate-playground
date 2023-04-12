@@ -3,9 +3,16 @@ package coordinate_playground;
 import java.util.Objects;
 
 public class Position {
-    private final int y;
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
     private final int x;
-    private static final String NEWLINE = System.getProperty("line.separator");
+    private final int y;
 
     public Position(int x, int y) {
         this.x = x;
