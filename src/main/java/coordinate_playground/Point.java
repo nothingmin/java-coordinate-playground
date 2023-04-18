@@ -2,11 +2,11 @@ package coordinate_playground;
 
 import java.util.Objects;
 
-public class Position {
+public class Point {
     private final int x;
     private final int y;
 
-    public Position(int x, int y) {
+    public Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -15,8 +15,8 @@ public class Position {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Position position = (Position) o;
-        return y == position.y && x == position.x;
+        Point point = (Point) o;
+        return y == point.y && x == point.x;
     }
 
     public int getX() {

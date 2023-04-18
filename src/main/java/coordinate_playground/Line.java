@@ -1,10 +1,10 @@
 package coordinate_playground;
 
 public class Line {
-    private final Position end;
-    private final Position start;
+    private final Point end;
+    private final Point start;
 
-    public Line(Position start, Position end) {
+    public Line(Point start, Point end) {
         this.start = start;
         this.end = end;
     }
