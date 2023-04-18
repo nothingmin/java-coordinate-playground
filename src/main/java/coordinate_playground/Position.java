@@ -3,14 +3,6 @@ package coordinate_playground;
 import java.util.Objects;
 
 public class Position {
-    public int getX() {
-        return x;
-    }
-
-    public int getY() {
-        return y;
-    }
-
     private final int x;
     private final int y;
 

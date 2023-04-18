@@ -10,4 +10,5 @@ public class PositionsTest {
         positions.addPosition(new Position(1,5));
         Assertions.assertThat(positions.isExist(new Position(1, 5))).isEqualTo(true);
     }
+
 }
