@@ -19,6 +19,22 @@ public class Position {
         return y == position.y && x == position.x;
     }
 
+    public int getX() {
+        return x;
+    }
+
+    @Override
+    public String toString() {
+        return "Position{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
+
+    public int getY() {
+        return y;
+    }
+
     @Override
     public int hashCode() {
         return Objects.hash(y, x);
