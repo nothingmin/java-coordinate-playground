@@ -2,7 +2,7 @@ package coordinate;
 
 import java.util.List;
 
-public abstract class AbstractFigure implements Figure {
+public abstract class AbstractFigure implements Figure, FigureCreator {
     private final List<Point> points;
 
     public AbstractFigure(List<Point> points) {

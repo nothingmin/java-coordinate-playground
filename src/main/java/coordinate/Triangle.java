@@ -23,4 +23,9 @@ public class Triangle extends AbstractFigure {
     public double area() {
         return 0;
     }
+
+    @Override
+    public Figure create(List<Point> points) {
+        return new Triangle(points);
+    }
 }
